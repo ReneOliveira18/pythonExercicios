@@ -1,0 +1,10 @@
+n = input('Type something.')
+print('Is primitive type.', type(n))
+print('Is alphanumeric?', n.isalnum())
+print('Is alphabetic?', n.isalpha())
+print('Is number?', n.isnumeric())
+print('Is spaces?', n.isspace())
+print('Capital letters?', n.isupper())
+print('Small letters?', n.islower())
+print('Is capitalized', n.istitle())
+
